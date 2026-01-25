@@ -7,6 +7,9 @@
     <title>David Han | Engineer & Researcher</title>
     <meta name="description" content="David Han - Engineer, Researcher, and Crypto Investor at Auros.">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +20,13 @@
 
     <!-- Icons (Feather Icons) -->
     <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Vanta.js for interactive background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 </head>
 
 <body>
-
     <main class="container">
         <header>
             <div class="profile-image-container">
@@ -29,9 +35,9 @@
             <h1>David Han</h1>
             <div class="role">
                 <span>Engineer</span>
-                <span class="separator">-</span>
+                <span class="separator">•</span>
                 <span>Researcher</span>
-                <span class="separator">-</span>
+                <span class="separator">•</span>
                 <span>Venture Investor</span>
             </div>
             <p class="bio">
@@ -43,7 +49,9 @@
         <section class="links">
             <a href="https://x.com/0xdavidhan" target="_blank" rel="noopener noreferrer" class="link-card">
                 <div class="link-content">
-                    <i data-feather="twitter" class="icon"></i>
+                    <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
                     <span class="link-text">X (Twitter)</span>
                 </div>
                 <i data-feather="arrow-right" class="arrow"></i>
@@ -58,11 +66,11 @@
                 <i data-feather="arrow-right" class="arrow"></i>
             </a>
 
-            <a href="https://calendly.com/auros-ventures/meet" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/davidbhan" target="_blank" rel="noopener noreferrer"
                 class="link-card">
                 <div class="link-content">
-                    <i data-feather="calendar" class="icon"></i>
-                    <span class="link-text">Calendly</span>
+                    <i data-feather="github" class="icon"></i>
+                    <span class="link-text">GitHub</span>
                 </div>
                 <i data-feather="arrow-right" class="arrow"></i>
             </a>
@@ -71,6 +79,23 @@
 
     <script>
         feather.replace();
+
+        // Initialize Vanta waves background
+        VANTA.WAVES({
+            el: "body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x80e14,
+            shininess: 54.00,
+            waveHeight: 16.00,
+            waveSpeed: 0.70,
+            zoom: 0.71
+        });
     </script>
 </body>
 
