@@ -119,6 +119,9 @@ h1 {
     font-size: 1rem;
     color: var(--text-primary);
     line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: none;
     margin: 0 auto;
     background: rgba(15, 17, 21, 0.7);
     padding: 1rem 1.25rem;
@@ -126,8 +129,28 @@ h1 {
     backdrop-filter: blur(4px);
 }
 
-.role span {
+.role span,
+.role-link {
     display: inline-block;
+}
+
+.role-link {
+    color: inherit;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.2em;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.role-link:hover {
+    color: var(--accent-hover);
+    text-decoration-color: currentColor;
+}
+
+.role-link:focus-visible {
+    color: var(--accent-hover);
+    outline: 2px solid var(--accent-color);
+    outline-offset: 3px;
+    border-radius: 2px;
 }
 
 .separator {
