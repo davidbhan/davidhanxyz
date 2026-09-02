@@ -1,0 +1,14 @@
+# David Han
+
+> Personal profile of David Han, an engineer, researcher, investor, and founder focused on helping people better understand their health.
+
+## About
+
+David Han's career has spanned engineering, financial research, and venture investing across New York, Hong Kong, and London. He now applies those experiences to healthcare, using technology, research, and company building to help people understand their health at scale.
+
+## Public profiles
+
+- [Website](https://davidhan.xyz/): Canonical personal website
+- [LinkedIn](https://www.linkedin.com/in/davidbhan/): Professional profile
+- [X](https://x.com/0xdavidhan): Public posts and commentary
+- [GitHub](https://github.com/davidbhan): Software projects and contributions
