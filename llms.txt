@@ -1,10 +1,10 @@
 # David Han
 
-> Personal profile of David Han, an engineer, researcher, investor, and founder focused on helping people better understand their health.
+> David Han is the founder of BioLog, where he helps people understand their health. He brings global experience as an engineer, researcher, and venture investor.
 
 ## About
 
-David Han's career has spanned engineering, financial research, and venture investing across New York, Hong Kong, and London. He now applies those experiences to healthcare, using technology, research, and company building to help people understand their health at scale.
+David Han's career has spanned engineering, research, and venture investing across New York, Hong Kong, and London. He now applies those experiences to healthcare, using technology, research, and company building to help people understand their health at scale.
 
 ## Public profiles
 
